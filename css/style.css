@@ -96,17 +96,17 @@ header nav ul li a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 .bienvenidos div{
     width: 50%;
-    
 }
 
 .bienvenidos div h2{
     font-family: 'Ysabeau Infant', sans-serif;
     color: #4B2E39;
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .bienvenidos img{
@@ -124,15 +124,16 @@ header nav ul li a:hover{
 
 .online div{
     display: flex;
-}
-
-.online div{
     justify-content: space-around;
     align-items: center;
 }
+
+.online div{
+    
+}
 .online h3{
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     color: #7B8745;
     margin: 15px;
 }
