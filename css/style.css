@@ -88,7 +88,7 @@ header nav ul li a:hover{
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 300;
     font-style: italic;
-    color: #7B8745;
+    color: #4B2E39;
 }
 
 .bienvenidos{
@@ -96,7 +96,7 @@ header nav ul li a:hover{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    background-color: #c0bfaa;
 }
 
 .bienvenidos div{
@@ -107,6 +107,7 @@ header nav ul li a:hover{
     font-family: 'Ysabeau Infant', sans-serif;
     color: #4B2E39;
     font-size: 50px;
+    
 }
 
 .bienvenidos img{
@@ -120,17 +121,19 @@ header nav ul li a:hover{
     color: #F1E9DA;
     font-size: 45px;
     background-color: #4B2E39;
+    margin-bottom: 0px;
 }
+
 
 .online div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: #c0bfaa;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.online div{
-    
-}
 .online h3{
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 50px;
@@ -151,7 +154,8 @@ margin-bottom: 10px;
     font-family: 'Ysabeau Infant', sans-serif;
     color: #F1E9DA;
     background-color:#A28497;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 20px;
     text-transform: uppercase;
     font-style: inherit;
@@ -162,6 +166,7 @@ margin-bottom: 10px;
     justify-content:space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #c0bfaa;
 }
 .productos div div{
     border: 1px solid violet;
