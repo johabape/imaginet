@@ -124,7 +124,6 @@ header nav ul li a:hover{
     margin-bottom: 0px;
 }
 
-
 .online div{
     display: flex;
     justify-content: space-evenly;
@@ -275,6 +274,7 @@ footer img{
     align-items: center;
 }
 
+/***--Media Querys--***/
 
 @media screen and (max-width:1210px){
     .bienvenidos{
@@ -283,6 +283,18 @@ footer img{
         align-items: center;
     }
 }
+
+@media screen and (max-width:900px){
+    .online div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .online h3{
+        font-size: 25px;
+    }
+}
+
 @media screen and (max-width:730px){
     .bienvenidos{
         flex-direction: column;
@@ -301,7 +313,7 @@ footer img{
     }
     
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:720px){
     header{
         flex-direction: column;
         position: static;
@@ -340,6 +352,12 @@ footer img{
     .bienvenidos div p{
         font-size: 15px;
     }
+    .bienvenidos img{
+        width: 200px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
     .online h2{
         font-size: 30px;
         }
@@ -363,4 +381,10 @@ footer img{
         font-size: 15px;
     }
     
+}
+
+@media screen and (max-width:380px){
+    header h1{
+        font-size: 35px;
+    }
 }
