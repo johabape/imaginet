@@ -100,7 +100,7 @@ header nav ul li a:hover{
 }
 
 .bienvenidos div{
-    width: 50%;
+    width: 100%;
 }
 
 .bienvenidos div h2{
@@ -213,9 +213,7 @@ margin-bottom: 10px;
     font-size: 40px;
 }
 
-
 /*!------FOOTER------*/
-
 
 footer{
     background-color: #4B2E39;
@@ -272,7 +270,6 @@ footer img{
     font-size: 25px;
     font-family: 'Ysabeau Infant', sans-serif;
 }
-
 
 
 /***--Media Querys--***/
@@ -332,7 +329,7 @@ footer img{
     }
 }
 
-@media screen and (max-width:485px){
+@media screen and (max-width:500px){
     header{
         flex-direction: row;
     }
@@ -354,11 +351,12 @@ footer img{
         font-size: 15px;
     }
     .bienvenidos img{
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         align-items: center;
         justify-content: center;
     }
+
     .online h2{
         font-size: 30px;
         }
