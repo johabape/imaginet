@@ -256,9 +256,13 @@ footer img{
     font-style: italic;
     color: #7B8745;
     text-align: center;
+    margin-bottom: 0%;
 }
 
-/*----No pude centrar la imagen en el contenedor----*/
+.container-fluid{
+    background-color: #c0bfaa;
+}
+
 .row img{
     width: 250px;
     height: 250px;
@@ -267,12 +271,9 @@ footer img{
 .row h3{
     font-size: 25px;
     font-family: 'Ysabeau Infant', sans-serif;
-    text-align: center;
 }
 
-.col-xxl-6 col-lg-6 col-md-6 col-sm-12{
-    align-items: center;
-}
+
 
 /***--Media Querys--***/
 
