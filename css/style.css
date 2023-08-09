@@ -19,7 +19,6 @@ header nav{
 }
 
 
-
 header nav div a{
     font-family: 'Ysabeau Infant', sans-serif;
     font-style: italic;
@@ -42,7 +41,7 @@ header nav ul li a:hover{
 }
 
 .boton-nav{
-    border: 1px solid #4B2E39;
+    border: 2px solid #4B2E39;
     color: #4B2E39;
 }
 /*!------MAIN------*/
