@@ -1,51 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>iMaGiNeT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+
 <body>
     <header>
-        <h1>iMaGiNe.<span>T</span></h1>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/ideas.html">Ideas</a></li>
-                <li><a href="./pages/afterwork.html">After WorK</a></li>
-                <li><a href="./pages/intercambio.html">Intercambios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ImagineT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/ideas.html">Ideas</a>
+                            <a class="nav-link" href="./pages/afterwork.html">AfTer WoRk</a>
+                            <a class="nav-link" href="./pages/intercambio.html">Emprendimientos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="hero">
             <h2>Maestr@<span>+</span>Maestr@</h2>
-            <p>Bienvenidos a este sitio pensado para maestr@s donde encontrarás infinidad de recursos para tus clases y además, porque es igual de importante, tips para relajarse luego de tanto trabajo.</p>
+            <p>Bienvenidos a este sitio pensado para maestr@s donde encontrarás infinidad de recursos para tus clases y
+                además, porque es igual de importante, tips para relajarse luego de tanto trabajo.</p>
         </section>
         <section class="bienvenidos">
             <div>
                 <h2>Imagina sin límites</h2>
-                <p>La creatividad es ilimitada si pensamos en impartir clases significativas para nuestros niños y niñas. Te invito a indagar qué propuestas tiene este sitio.</p>
+                <p>La creatividad es ilimitada si pensamos en impartir clases significativas para nuestros niños y
+                    niñas. Te invito a indagar qué propuestas tiene este sitio.</p>
             </div>
             <div>
                 <img src="./img/ideas.png" alt="">
                 <img src="./img/intercambios.png" alt="">
             </div>
-            
+
         </section>
         <section class="online">
             <h2>Enseñando online</h2>
             <div>
                 <h3>Tutoriales</h3>
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/CjGQtKDXFPE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="300" height="200" src="https://www.youtube.com/embed/LS2PCn9fBmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/CjGQtKDXFPE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/LS2PCn9fBmw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
-        </section>  
+        </section>
 
         <section class="productos">
             <h2>Para mimarse</h2>
@@ -61,24 +88,27 @@
                     <a href="" class="boton">Comprar</a>
                 </div>
             </div>
-            
-                <!--formulario segunda clase final-->
+
+            <!--formulario segunda clase final-->
         </section>
         <div class="fixed">
             <i class="bi bi-whatsapp"></i>
         </div>
     </main>
-        
+
     <footer id="contacto">
         <div class="contenedor">
             <img src="./img/imaginet.jpg" alt="ImagineT">
             <div>
-            <a href="https://ceibal.edu.uy/" target="_blank"><img src="./img/ceibal.png" alt="Ceibal"></a>
-            <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a>
+                <a href="https://ceibal.edu.uy/" target="_blank"><img src="./img/ceibal.png" alt="Ceibal"></a>
+                <a href="https://es-la.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
