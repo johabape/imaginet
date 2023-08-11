@@ -263,8 +263,6 @@ footer img{
 
 /**-Página After Work-**/
 
-/**--No pude terminar esta pág--**/
-
 .actividades{
     background-color: #c0bfaa;
     font-family: 'Ysabeau Infant', sans-serif;
@@ -305,7 +303,7 @@ footer img{
 .aplico-grids{
     width: 100%;
     font-size: 20px;
-    color: #A28497;
+    color: #ece2e8;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 250px;
@@ -313,13 +311,21 @@ footer img{
     gap: 15px;
     
 }
-.aplico-grids div h4{
+.item{
+    position: relative;
+}
+
+.item h4{
     font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
 }
 
 .aplico-grids div img{
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .grids-dos div{
@@ -350,13 +356,38 @@ footer img{
 .montevideo img{
     width: 100%;
     height: 100%;
+    padding: 10px;
     
 }
-
-.vida-nocturna img{
-    width: 300px;
-    height: 200px;
+.vida-nocturna{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
 }
+
+.vida-nocturna div{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.vida-nocturna img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boliche{
+    position: relative;
+}
+
+.boliche h4{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #F1E9DA;
+    padding: 10px;
+}
+
 /***--Media Querys--***/
 
 @media screen and (max-width:1210px){
@@ -418,6 +449,16 @@ footer img{
         justify-content: center;
         align-items: center;
     }
+    .vida-nocturna{
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    }
+}
+@media screen and (max-width:600px){
+    .aplico-grids{
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 250px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -447,7 +488,7 @@ footer img{
         align-items: center;
         justify-content: center;
     }
-
+    
     .online h2{
         font-size: 30px;
         }
@@ -470,6 +511,10 @@ footer img{
     .productos div div h3{
         font-size: 15px;
     }
+    .montevideo-grids{
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    } 
     
 }
 
