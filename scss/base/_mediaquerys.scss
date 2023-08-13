@@ -1,0 +1,120 @@
+@media screen and (max-width:1210px){
+    .bienvenidos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:900px){
+    .online div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .online h3{
+        font-size: 25px;
+    }
+    .productos > div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:730px){
+    .bienvenidos{
+        flex-direction: column;
+    }
+    .bienvenidos div h2{
+        font-size: 30px;
+    }
+    .fixed{
+        display: none;
+    }
+}
+
+@media screen and (max-width:720px){
+    header{
+        flex-direction: column;
+        position: static;
+    }
+    .hero h2{
+        font-size: 40px;
+    }
+    .hero p{
+        font-size: 20px;
+    }
+    .online div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vida-nocturna{
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .aplico-grids{
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 250px;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        flex-direction: row;
+    }
+    header nav div div ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav div div ul li{
+        margin: 5px;
+    }
+    .hero h2{
+        padding: 10px;
+    }
+    .bienvenidos div h2{
+        font-size: 20px;
+    }
+    .bienvenidos div p{
+        font-size: 15px;
+    }
+    .bienvenidos div img{
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    .online h2{
+        font-size: 30px;
+        }
+    .productos h2{
+        font-size: 20px;
+    }
+    .productos div div{
+        width: 150px;
+        height: 180px;
+    }
+    .productos div div img{
+        width: 100px;
+        height: 90px;
+    }
+    .montevideo-grids{
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 200px;
+    } 
+}
+
+@media screen and (max-width:380px){
+    header nav div .h1{
+        font-size: 35px;
+    }
+}

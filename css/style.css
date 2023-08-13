@@ -131,10 +131,10 @@ header nav div form button{
 
 .online iframe{
     box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
--webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
--moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
-margin-top: 10px;
-margin-bottom: 10px;
+    -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+    -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .productos h2{
@@ -471,7 +471,7 @@ footer img{
         justify-content: center;
         align-items: center;
     }
-    header nav ul i{
+    header nav ul li{
         margin: 5px;
     }
     .hero h2{
