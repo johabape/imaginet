@@ -1,0 +1,198 @@
+.hero{
+    background-image: url(../img/fondo.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #948AA8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+        border: #A28497;
+        display: inline-block;
+        padding: 30px;
+        span{
+            color: #7B8745;
+        }
+    }
+    p{
+        font-size: 25px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        color: #4B2E39;
+    }
+}
+
+.bienvenidos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #c0bfaa;
+    div{
+        width: 100%;
+        h2{
+            font-family: 'Ysabeau Infant', sans-serif;
+            color: #4B2E39;
+            font-size: 50px;
+        }
+    }
+    div{
+        img{
+            width: 300px;
+        height: 200px;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+    }
+}
+
+.online{
+    h2{
+        text-align: center;
+        font-family: 'Ysabeau Infant', sans-serif;
+        color: #F1E9DA;
+        font-size: 45px;
+        background-color: #4B2E39;
+        margin-bottom: 0px;
+    }
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #c0bfaa;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        h3{
+            font-family: 'Ysabeau Infant', sans-serif;
+            font-size: 50px;
+            color: #7B8745;
+            margin: 15px;
+        }
+        iframe{
+            box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.productos{
+    h2{
+        text-align: center;
+        font-family: 'Ysabeau Infant', sans-serif;
+        color: #F1E9DA;
+        background-color:#A28497;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 20px;
+        text-transform: uppercase;
+        font-style: inherit;
+    }
+    > div{
+        background-color: #c0bfaa;
+        object-fit: cover;
+        gap: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            border: 1px solid violet;
+            width: 200px;
+            height: 230px;
+            text-align: center;
+            background-color: #4B2E39;
+            color: #96BC8A;
+            margin: 5px;
+            box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+            position: relative;
+            
+            h3{
+                margin-bottom: 15px;
+                margin-top: 15px;
+                font-size: 20px;
+            }
+            img{
+                width: 150px;
+                height: 100px;
+            }
+            a{
+                text-decoration: none;
+                color: #96BC8A;
+                background-color: #A28497;
+                font-size: 18px;
+                font-style: italic;
+                font-weight: bolder;
+                position: relative;
+                &:hover{
+                    background-color: antiquewhite;
+                    color: #4B2E39;
+                    
+                }
+            }
+        }
+    }
+}
+
+.fixed{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    color: #7B8745;
+    font-size: 40px;
+}
+
+/*---PÁGINA IDEAS---*/
+
+.materias{
+    background-color: #4B2E39;
+    width: 100%;
+    height: 100%;
+    h2{
+        text-align: center;
+        font-family: 'Ysabeau Infant', sans-serif;
+        color: #F1E9DA;
+        font-size: 45px;
+    }
+    p{
+        font-size: 25px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        color: #7B8745;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+}
+
+.container-fluid{
+    background-color: #c0bfaa;
+    .row{
+        div{
+            h3{
+                font-size: 25px;
+                font-family: 'Ysabeau Infant', sans-serif;
+            }
+            a{
+                img{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}

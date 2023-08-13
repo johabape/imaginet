@@ -39,7 +39,7 @@ header nav ul li a:hover{
     font-size: 25px;
 }
 
-.boton-nav{
+header nav div form button{
     border: 2px solid #4B2E39;
     color: #4B2E39;
 }
