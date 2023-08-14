@@ -8,10 +8,8 @@
     background-attachment: fixed;
     color: nth($colores,3);
     text-align: center;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     h2{
         font-family: 'Raleway', sans-serif;
         font-size: nth($font-size,2);
@@ -32,9 +30,7 @@
 }
 
 .bienvenidos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex;
     text-align: center;
     background-color: nth($colores,6);
     div{
@@ -67,9 +63,7 @@
         margin-bottom: 0px;
     }
     div{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        @include flex (flex, space-evenly, center);
         background-color: nth($colores,6);
         margin-bottom: 0px;
         margin-top: 0px;
@@ -105,9 +99,7 @@
         background-color: nth($colores,6);
         object-fit: cover;
         gap: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         div{
             border: 1px solid nth($colores,8);
             width: 200px;

@@ -1,7 +1,14 @@
 @charset "UTF-8";
-/*! TIPOGRAFÍA */
+/*--Extend--*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;1,100;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:ital,wght@0,100;0,400;0,500;1,100;1,900&family=Ysabeau+Infant:ital,wght@0,200;0,400;1,100;1,200;1,400;1,800&family=Ysabeau:ital,wght@0,100;0,300;0,600;0,800;1,100;1,300;1,600;1,800&display=swap");
+.hero, .bienvenidos, .productos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*--MIXIN--*/
+/*! TIPOGRAFÍA */
 /*! RESET */
 * {
   margin: 0%;
@@ -28,11 +35,11 @@ header nav {
     color: #4B2E39;
     text-decoration: none;
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic; }
     header nav div ul li .color-nav:hover {
       color: #7B8745;
-      font-size: 25px; }
+      font-size: 30px; }
   header nav div ul li a {
     text-decoration: none;
     font-family: 'Ysabeau Infant', sans-serif;
@@ -82,10 +89,7 @@ header nav {
   background-attachment: fixed;
   color: #948AA8;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
   .hero h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
@@ -102,9 +106,6 @@ header nav {
     color: #4B2E39; }
 
 .bienvenidos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   background-color: #c0bfaa; }
   .bienvenidos div {
@@ -161,10 +162,7 @@ header nav {
 .productos > div {
   background-color: #c0bfaa;
   object-fit: cover;
-  gap: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  gap: 15px; }
   .productos > div div {
     border: 1px solid violet;
     width: 200px;

@@ -24,4 +24,16 @@ $font-size:
 18px,
 15px;
 
+/*--Extend--*/
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/*--MIXIN--*/
+@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}

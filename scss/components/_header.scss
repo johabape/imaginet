@@ -26,11 +26,11 @@ header{
                             color: nth($colores,1);
                             text-decoration: none;
                             font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,5);
+                            font-size: nth($font-size,7);
                             font-style: italic;
                             &:hover{
                                     color:nth($colores,5);
-                                    font-size: nth($font-size,6);
+                                    font-size: nth($font-size,5);
                                 }
                         }
                         

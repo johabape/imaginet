@@ -18,9 +18,11 @@ header nav{
     background-color: #4B2E39;
 }
 
-header nav div a{
+.h1{
     font-family: 'Ysabeau Infant', sans-serif;
     font-style: italic;
+    color: #4B2E39;
+    font-size: 50px;
 }
 
 header nav ul li{
