@@ -229,6 +229,122 @@ header nav {
     width: 250px;
     height: 250px; }
 
+/*--PÁGINA AFTERWORK--*/
+.actividades {
+  background-color: #c0bfaa;
+  font-family: 'Ysabeau Infant', sans-serif; }
+  .actividades h2 {
+    text-align: center;
+    background-color: #4B2E39;
+    color: #7B8745;
+    padding: 10px;
+    font-style: italic;
+    font-size: 40px; }
+  .actividades p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0%; }
+  .actividades .en-casa h3 {
+    text-align: center;
+    text-align: center;
+    background-color: #A28497;
+    color: #F1E9DA;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 0px; }
+  .actividades .en-casa .aplico-grids {
+    width: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: #ece2e8;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    object-fit: cover;
+    gap: 15px; }
+    .actividades .en-casa .aplico-grids .item {
+      position: relative; }
+      .actividades .en-casa .aplico-grids .item h4 {
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.397);
+        width: 100%; }
+      .actividades .en-casa .aplico-grids .item img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+        -webkit-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61); }
+  .actividades .grids-dos h3 {
+    text-align: center;
+    text-align: center;
+    background-color: #A28497;
+    color: #F1E9DA;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 0px; }
+  .actividades .grids-dos div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px; }
+    .actividades .grids-dos div iframe {
+      max-width: 100%;
+      max-height: 100%;
+      box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      -webkit-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      -moz-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      object-fit: cover;
+      justify-items: center;
+      align-items: center; }
+  .actividades .montevideo h3 {
+    text-align: center;
+    text-align: center;
+    background-color: #A28497;
+    color: #F1E9DA;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 0px; }
+  .actividades .montevideo .montevideo-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    justify-items: center;
+    align-items: center; }
+    .actividades .montevideo .montevideo-grids img {
+      width: 250px;
+      height: 200px;
+      position: relative; }
+  .actividades .pubs h3 {
+    text-align: center;
+    text-align: center;
+    background-color: #A28497;
+    color: #F1E9DA;
+    padding: 10px;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 0px; }
+  .actividades .pubs .vida-nocturna {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px; }
+    .actividades .pubs .vida-nocturna .boliche {
+      padding: 10px;
+      margin-bottom: 10px; }
+      .actividades .pubs .vida-nocturna .boliche h4 {
+        font-size: 20px;
+        position: absolute;
+        width: 100%;
+        color: #F1E9DA;
+        padding: 10px; }
+      .actividades .pubs .vida-nocturna .boliche img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
 footer {
   background-color: #4B2E39;
   padding: 10px;
