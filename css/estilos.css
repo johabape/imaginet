@@ -157,7 +157,8 @@ header nav {
   margin-bottom: 0px;
   padding: 20px;
   text-transform: uppercase;
-  font-style: inherit; }
+  font-style: inherit;
+  transition: 1s; }
 
 .productos > div {
   background-color: #c0bfaa;
@@ -171,10 +172,13 @@ header nav {
     background-color: #4B2E39;
     color: #96BC8A;
     margin: 5px;
-    box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
-    -webkit-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
-    -moz-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
-    position: relative; }
+    transition: 1s; }
+    .productos > div divhover {
+      transform: scale(1.2);
+      box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      -webkit-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      -moz-box-shadow: 28px 26px 65px 8px rgba(0, 0, 0, 0.61);
+      position: relative; }
     .productos > div div h3 {
       margin-bottom: 15px;
       margin-top: 15px;
@@ -189,10 +193,12 @@ header nav {
       font-size: 18px;
       font-style: italic;
       font-weight: bolder;
-      position: relative; }
+      position: relative;
+      transition: 1s; }
       .productos > div div a:hover {
         background-color: antiquewhite;
-        color: #4B2E39; }
+        color: #4B2E39;
+        transform: scale(1.2); }
 
 .fixed {
   position: fixed;
@@ -425,6 +431,9 @@ footer {
   .productos h2 {
     font-size: 2 70px, 60px, 50px, 45px, 30px, 25px, 20px, 40px, 18px, 15px, 7; }
   .actividades .montevideo .montevideo-grids {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 200px; }
+  .actividades .pubs .vida-nocturna {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 200px; } }
 
