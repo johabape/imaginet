@@ -192,18 +192,18 @@
 /*--PÁGINA AFTERWORK--*/
 
 .actividades{
-    background-color: #c0bfaa;
+    background-color: nth($colores,6);
     font-family: 'Ysabeau Infant', sans-serif;
     h2{
         text-align: center;
-        background-color: #4B2E39;
-        color: #7B8745;
+        background-color: nth($colores,1);
+        color: nth($colores,5);
         padding: 10px;
         font-style: italic;
-        font-size: 40px;
+        font-size: nth($font-size,8);
     }
     p{
-        font-size: 20px;
+        font-size: nth($font-size,7);
         text-align: center;
         margin: 0%;
     }
@@ -211,18 +211,18 @@
         h3{
             text-align: center;
             text-align: center;
-            background-color:#A28497;
-            color: #F1E9DA;
+            background-color:nth($colores,4);
+            color: nth($colores,7);
             padding: 10px;
             font-style: italic;
-            font-size: 30px;
+            font-size: nth($font-size,5);
             margin-top: 0px;
         }
         .aplico-grids{
             width: 100%;
             width: 100%;
-            font-size: 20px;
-            color: #ece2e8;
+            font-size: nth($font-size,7);
+            color: nth($colores,10);
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: 250px;
@@ -231,10 +231,10 @@
             .item{
                 position: relative;
                 h4{
-                    font-size: 20px;
+                    font-size: nth($font-size,7);
                     position: absolute;
                     bottom: 0;
-                    background-color: rgba(0, 0, 0, 0.397);
+                    background-color: nth($colores,11);
                     width: 100%;
                 }
                 img{
@@ -251,11 +251,11 @@
         h3{
             text-align: center;
             text-align: center;
-            background-color:#A28497;
-            color: #F1E9DA;
+            background-color:nth($colores,4);
+            color: nth($colores,7);
             padding: 10px;
             font-style: italic;
-            font-size: 30px;
+            font-size: nth($font-size,5);
             margin-top: 0px;
         }
         div{
@@ -278,11 +278,11 @@
         h3{
             text-align: center;
             text-align: center;
-            background-color:#A28497;
-            color: #F1E9DA;
+            background-color:nth($colores,4);
+            color: nth($colores,7);
             padding: 10px;
             font-style: italic;
-            font-size: 30px;
+            font-size: nth($font-size,5);
             margin-top: 0px;
         }
         .montevideo-grids{
@@ -302,11 +302,11 @@
         h3{
             text-align: center;
             text-align: center;
-            background-color:#A28497;
-            color: #F1E9DA;
+            background-color:nth($colores,4);
+            color: nth($colores,7);
             padding: 10px;
             font-style: italic;
-            font-size: 30px;
+            font-size: nth($font-size,5);
             margin-top: 0px;
         }
         .vida-nocturna{
@@ -317,10 +317,10 @@
                 padding: 10px;
                 margin-bottom: 10px;
                 h4{
-                    font-size: 20px;
+                    font-size: nth($font-size,7);
                     position: absolute;
                     width: 100%;
-                    color: #F1E9DA;
+                    color: nth($colores,7);
                     padding: 10px;
                 }
                 img{
