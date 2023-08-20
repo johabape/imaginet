@@ -5,11 +5,10 @@ header{
         background-color: nth($colores,6);
         div{
             .h1{
-                font-family: 'Ysabeau Infant', sans-serif;
-                font-style: italic;
-                color: nth($colores,1);
-                font-size: nth($font-size,3);
-                font-weight: 20px;
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
                     span{
                         font-family: 'Ysabeau Infant', sans-serif;
                         font-style: italic;

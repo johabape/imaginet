@@ -1,5 +1,5 @@
 .hero{
-    background-image: url(../img/fondo.png);
+    background: linear-gradient(rgba(250, 235, 215, 0.411), rgba(250, 235, 215, 0.438)), url(../img/fondo.png);
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
     p{
         font-size: nth($font-size,6);
         font-family: 'Ysabeau Infant', sans-serif;
-        font-weight: 300;
+        font-weight: 400;
         font-style: italic;
         color: nth($colores,1);
     }
@@ -139,7 +139,7 @@
                 &:hover{
                     background-color: nth($colores,2);
                     color: nth($colores,1);
-                    transform: scale(1.2);
+                    transform: scale(1.3);
                 }
             }
         }
