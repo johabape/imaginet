@@ -21,11 +21,12 @@
         }
     }
     p{
-        font-size: nth($font-size,6);
+        font-size: nth($font-size,5);
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 400;
         font-style: italic;
         color: nth($colores,1);
+        margin: 100px;
     }
 }
 
@@ -40,8 +41,14 @@
             color: nth($colores,1);
             font-size: nth($font-size,3);
         }
+        p{
+            font-family: 'Ysabeau Infant', sans-serif;
+            color: nth($colores,1);
+            font-size: nth($font-size,7);
+        }
     }
     div{
+        padding: 5px;
         img{
             width: 300px;
             height: 200px;
@@ -157,13 +164,13 @@
 /*---PÁGINA IDEAS---*/
 
 .materias{
-    background-color: nth($colores,1);
+    background-color: nth($colores,2);
     width: 100%;
     height: 100%;
     h2{
         text-align: center;
         font-family: 'Ysabeau Infant', sans-serif;
-        color: nth($colores,7);
+        color: nth($colores,1);
         font-size: nth($font-size,4);
     }
     p{
@@ -171,15 +178,19 @@
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 300;
         font-style: italic;
-        color: nth($colores,5);
+        color: nth($colores,1);
         text-align: center;
         margin-bottom: 0%;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 10px;
     }
 }
 
 .container-fluid{
     background-color: nth($colores,6);
     .row{
+        background-color: nth($colores,2);
         div{
             h3{
                 font-size: nth($font-size,6);
@@ -189,6 +200,7 @@
                 img{
                     width: 250px;
                     height: 250px;
+                    padding: 5px;
                 }
             }
         }
@@ -335,6 +347,49 @@
                     object-fit: cover;
                 }
             }
+        }
+    }
+}
+
+/*--Página Contacto--*/
+
+
+    
+.formulario{
+    background-color: nth($colores,2);
+    width: 100%;
+    height: 100%;
+    @include flex (flex, space-evenly, center);
+    .mensajes{
+        h2{
+            font-family: 'Ysabeau Infant', sans-serif;
+            font-style: italic;
+            text-align: center;
+            font-size: nth($font-size,5);
+            color: nth($colores,1);
+        }
+        p{
+            font-family: 'Ysabeau Infant', sans-serif;
+            font-style: italic;
+            text-align: center;
+            font-size: nth($font-size,7);
+            color: nth($colores,1);
+            padding: 5px;
+        }
+    }
+    .modificar-form{
+        width: 50%;
+        height: 50%;
+        padding: 5px;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-style: italic;
+        font-size: nth($font-size,7);
+        .boton-form{
+            background-color: nth($colores,4);
+            border: 2px solid nth($colores,1);
+            color: nth($colores,2);
+            width: 100px;
+            text-align: center;
         }
     }
 }
