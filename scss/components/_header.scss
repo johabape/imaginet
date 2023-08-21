@@ -9,17 +9,12 @@ header{
                     width: 300px;
                     height: 300px;
                 }
-                    span{
-                        font-family: 'Ysabeau Infant', sans-serif;
-                        font-style: italic;
-                        color: nth($colores,5);
-                        font-size: nth($font-size,1);
-                    }
                 }
             }
             div{
                 ul{
-                    li{
+                    .nav-item{
+                        transition: 2s;
                         .color-nav{
                             margin: 10px;
                             color: nth($colores,1);
@@ -29,61 +24,24 @@ header{
                             font-style: italic;
                             &:hover{
                                     color:nth($colores,5);
-                                    font-size: nth($font-size,5);
+                                    transform: scale(1.2);
                                 }
                         }
                         
                     }
-                    li{
-                        a{
-                            text-decoration: none;
-                            font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,7);
-                            font-style: italic;
-                            &:hover{
-                                color:nth($colores,2);
-                                font-size: nth($font-size,6);
-                            }
-                        }
-                        a{
-                            text-decoration: none;
-                            font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,7);
-                            font-style: italic;
-                            &:hover{
-                                color:nth($colores,2);
-                                font-size: nth($font-size,6);
-                            }
-                        }
-                        a{
-                            text-decoration: none;
-                            font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,7);
-                            font-style: italic;
-                            &:hover{
-                                color:nth($colores,2);
-                                font-size: nth($font-size,6);
-                            }
-                        }
-                        a{
-                            text-decoration: none;
-                            font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,7);
-                            font-style: italic;
-                            &:hover{
-                                color:nth($colores,2);
-                                font-size: nth($font-size,6);
-                            }
-                        }
-                    }
                 }
                 form{
-                    .boton-nav{
+                    transition: 2s;
+                    .bot-navegador{
                         border: 2px solid nth($colores,1);
-                        color: nth($colores,1);
                         font-family: 'Ysabeau Infant', sans-serif;
-                        font-size: nth($font-size,7);
+                        font-size: nth($font-size,9);
                         font-style: italic;
+                        &hover{
+                            transform: scale(1.2);
+                            color: nth($colores,3);
+                        }
+                        
                         }
                     }
                 }

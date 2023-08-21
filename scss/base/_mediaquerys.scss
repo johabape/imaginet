@@ -6,6 +6,13 @@
     }
 }
 
+@media screen and (max-width:991px){
+    header nav div .h1 img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media screen and (max-width:900px){
     .online div{
         flex-direction: column;
@@ -36,6 +43,9 @@
     }
     .actividades .pubs h3{
         font-size: nth($font-size,6);
+    }
+    .formulario{
+        flex-direction: column;
     }
 }
 
@@ -75,6 +85,12 @@
         justify-content: center;
         align-items: center;
     }
+    .materias h2{
+        font-size: nth($font-size,5);
+    }
+    .materias p{
+        font-size: nth($font-size,7);
+    }
     .actividades .montevideo .montevideo-grids a img{
         width: 200px;
         height: 100px;
@@ -91,6 +107,9 @@
     .productos h2{
         font-size: 2($font-size,7);
         }
+    .actividades h2{
+        font-size: 2($font-size,7);
+    }
     .actividades .montevideo .montevideo-grids{
         grid-template-columns: repeat(1, 1fr);
         grid-auto-rows: 200px;
@@ -116,6 +135,9 @@
     }
     .hero h2{
         padding: 10px;
+    }
+    .hero p{
+        margin: 0%;
     }
     
     .bienvenidos div p{
