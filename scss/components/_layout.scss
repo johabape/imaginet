@@ -118,8 +118,9 @@
             color: nth($colores,9);
             margin: 5px;
             transition: 1s;
-            &hover{
-                transform: scale(1.2);
+            border-radius: 12px;
+            &:hover{
+                transform: scale(1.1);
                 box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
                 -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
                 -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
@@ -285,8 +286,8 @@
             align-items: center;
             justify-items: center;
             iframe{
-                max-width: 80%;
-                max-height: 80%;
+                max-width: 90%;
+                max-height: 90%;
                 box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
                 -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
                 -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
@@ -342,7 +343,6 @@
                 h4{
                     font-size: nth($font-size,7);
                     position: absolute;
-                    width: 100%;
                     color: nth($colores,7);
                     padding: 10px;
                 }
@@ -350,6 +350,9 @@
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
+                    box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+                    -webkit-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
+                    -moz-box-shadow: 28px 26px 65px 8px rgba(0,0,0,0.61);
                 }
             }
         }
