@@ -1,8 +1,7 @@
 @media screen and (max-width:1210px){
     .bienvenidos{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %justify-align;
     }
     .emprendimientos .emp-item .bloque-imagen img{
         width: 500px;
@@ -40,8 +39,7 @@
     }
     .online div{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %justify-align;
     }
     .online h3{
         font-size: nth($font-size,6);
@@ -130,8 +128,7 @@
     }
     .online div{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %justify-align;
     }
     .materias h2{
         font-size: nth($font-size,5);
@@ -172,8 +169,7 @@
     }
     header nav div div ul{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %justify-align;
     }
     header nav div div ul li{
         margin: 5px;
@@ -187,8 +183,7 @@
     .bienvenidos div img{
         width: 100px;
         height: 100px;
-        align-items: center;
-        justify-content: center;
+        @extend %justify-align;
     }
     .productos div div{
         width: 150px;
