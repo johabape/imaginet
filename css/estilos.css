@@ -399,6 +399,10 @@ footer {
     height: 200px; } }
 
 @media screen and (max-width: 900px) {
+  .hero h2 {
+    font-size: 45px; }
+  .hero p {
+    font-size: 25px; }
   .online div {
     flex-direction: column;
     justify-content: center;
@@ -425,6 +429,8 @@ footer {
     flex-direction: column; } }
 
 @media screen and (max-width: 730px) {
+  .hero p {
+    margin: 0%; }
   .bienvenidos {
     flex-direction: column; }
   .bienvenidos div h2 {
@@ -445,7 +451,7 @@ footer {
   .hero h2 {
     font-size: 40px; }
   .hero p {
-    font-size: 20px; }
+    font-size: 25px; }
   .online div {
     flex-direction: column;
     justify-content: center;
@@ -459,8 +465,6 @@ footer {
     height: 100px; } }
 
 @media screen and (max-width: 600px) {
-  .bienvenidos div h2 {
-    font-size: 20px; }
   .online h2 {
     font-size: 70px, 60px, 50px, 45px, 30px, 25px, 20px, 40px, 18px, 15px, 5; }
   .productos h2 {
@@ -485,10 +489,8 @@ footer {
     margin: 5px; }
   .hero h2 {
     padding: 10px; }
-  .hero p {
-    margin: 0%; }
   .bienvenidos div p {
-    font-size: 1nth 70px, 60px, 50px, 45px, 30px, 25px, 20px, 40px, 18px, 15px, 10; }
+    font-size: 15px; }
   .bienvenidos div img {
     width: 100px;
     height: 100px;

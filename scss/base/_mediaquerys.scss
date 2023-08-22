@@ -14,11 +14,17 @@
 }
 
 @media screen and (max-width:900px){
+    .hero h2{
+        font-size: nth($font-size,4);
+    }
+    .hero p{
+        font-size: nth($font-size,6);
+    }
     .online div{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        }
+    }
     .online h3{
         font-size: nth($font-size,6);
     }
@@ -50,6 +56,10 @@
 }
 
 @media screen and (max-width:730px){
+    .hero p{
+        margin: 0%;
+        
+    }
     .bienvenidos{
         flex-direction: column;
     }
@@ -78,7 +88,7 @@
         font-size: nth($font-size,8);
     }
     .hero p{
-        font-size: nth($font-size,7);
+        font-size: nth($font-size,6);
     }
     .online div{
         flex-direction: column;
@@ -98,9 +108,6 @@
 }
 
 @media screen and (max-width:600px){
-    .bienvenidos div h2{
-        font-size: nth($font-size,7);
-    }
     .online h2{
         font-size: ($font-size,5);
         }
@@ -136,12 +143,8 @@
     .hero h2{
         padding: 10px;
     }
-    .hero p{
-        margin: 0%;
-    }
-    
     .bienvenidos div p{
-        font-size: 1nth($font-size,10);
+        font-size: nth($font-size,10);
     }
     .bienvenidos div img{
         width: 100px;
