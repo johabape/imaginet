@@ -372,6 +372,83 @@ header nav {
       width: 100px;
       text-align: center; }
 
+/*-- Página Emprendimientos--*/
+.presentacion {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-style: italic;
+  text-align: center;
+  background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), #A28497; }
+  .presentacion h2 {
+    font-size: 40px;
+    color: #4B2E39; }
+  .presentacion p {
+    font-size: 25px;
+    color: #4B2E39;
+    padding: 5px; }
+
+.emprendimientos {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-style: italic;
+  text-align: center;
+  background-color: #ece2e8; }
+  .emprendimientos .emp-item {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 0%; }
+    .emprendimientos .emp-item .bloque-titulo {
+      padding: 10px;
+      display: grid;
+      grid-template-rows: 1.7fr 0.3fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      align-items: center;
+      border-color: #4B2E39;
+      border: 10px; }
+      .emprendimientos .emp-item .bloque-titulo .titulo-p {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0%; }
+        .emprendimientos .emp-item .bloque-titulo .titulo-p h3 {
+          font-size: 30px;
+          color: #4B2E39;
+          padding: 15px;
+          font-weight: 600; }
+        .emprendimientos .emp-item .bloque-titulo .titulo-p p {
+          font-size: 20px;
+          color: #4B2E39;
+          padding: 5px; }
+      .emprendimientos .emp-item .bloque-titulo div {
+        grid-column-start: 3;
+        grid-column-end: 4; }
+        .emprendimientos .emp-item .bloque-titulo div div {
+          background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), #A28497;
+          justify-items: center;
+          text-align: center;
+          width: 100px;
+          height: 100px;
+          border-radius: 10px; }
+          .emprendimientos .emp-item .bloque-titulo div div img {
+            width: 50px;
+            height: 50px;
+            margin-top: 15px; }
+          .emprendimientos .emp-item .bloque-titulo div div .boton-emp {
+            text-decoration: none;
+            color: #4B2E39;
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bolder;
+            position: relative;
+            transition: 1s; }
+            .emprendimientos .emp-item .bloque-titulo div div .boton-emp:hover {
+              background-color: antiquewhite;
+              color: #4B2E39;
+              transform: scale(1.3); }
+    .emprendimientos .emp-item .bloque-imagen img {
+      width: 700px;
+      height: 500px; }
+
 footer {
   background-color: #4B2E39;
   padding: 10px;
@@ -391,12 +468,24 @@ footer {
   .bienvenidos {
     flex-direction: column;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+  .emprendimientos .emp-item .bloque-imagen img {
+    width: 500px;
+    height: 400px; } }
 
 @media screen and (max-width: 991px) {
   header nav div .h1 img {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  .emprendimientos .emp-item .bloque-titulo .titulo-p h3 {
+    padding: 0%; }
+  .emprendimientos .emp-item .bloque-titulo .titulo-p p {
+    padding: 0%; }
+  .emprendimientos .emp-item .bloque-titulo .titulo-p p {
+    font-size: 18px; }
+  .emprendimientos .emp-item .bloque-imagen img {
+    width: 400px;
+    height: 300px; } }
 
 @media screen and (max-width: 900px) {
   .hero h2 {
@@ -426,7 +515,23 @@ footer {
   .actividades .pubs h3 {
     font-size: 25px; }
   .formulario {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .emprendimientos .emp-item .bloque-titulo .titulo-p h3 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 800px) {
+  .emprendimientos .emp-item {
+    display: flex;
+    flex-direction: column; }
+  .emprendimientos .emp-item .bloque-titulo {
+    display: flex;
+    flex-direction: column; }
+  .emprendimientos .emp-item .bloque-titulo div div {
+    width: 80px;
+    height: 80px; }
+  .emprendimientos .emp-item .bloque-titulo div div img {
+    width: 40px;
+    height: 40px; } }
 
 @media screen and (max-width: 730px) {
   .hero p {
@@ -501,7 +606,10 @@ footer {
     height: 180px; }
   .productos div div img {
     width: 100px;
-    height: 90px; } }
+    height: 90px; }
+  .emprendimientos .emp-item .bloque-imagen img {
+    width: 300px;
+    height: 200px; } }
 
 @media screen and (max-width: 380px) {
   header nav div .h1 {
