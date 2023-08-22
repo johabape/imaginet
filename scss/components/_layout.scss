@@ -167,7 +167,7 @@
 /*---PÁGINA IDEAS---*/
 
 .materias{
-    background-color: nth($colores,2);
+    background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), nth($colores,7);
     width: 100%;
     height: 100%;
     h2{
@@ -179,7 +179,7 @@
     p{
         font-size: nth($font-size,6);
         font-family: 'Ysabeau Infant', sans-serif;
-        font-weight: 300;
+        font-weight: 500;
         font-style: italic;
         color: nth($colores,1);
         text-align: center;
@@ -191,9 +191,12 @@
 }
 
 .container-fluid{
-    background-color: nth($colores,6);
     .row{
-        background-color: nth($colores,2);
+        background: linear-gradient(rgba(250, 235, 215, 0.411), rgba(250, 235, 215, 0.438)), url(../img/fondo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
         div{
             h3{
                 font-size: nth($font-size,6);
@@ -301,7 +304,6 @@
     .montevideo{
         h3{
             text-align: center;
-            text-align: center;
             background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), nth($colores,4);
             color: nth($colores,7);
             color: nth($colores,7);
@@ -363,8 +365,6 @@
 
 /*--Página Contacto--*/
 
-
-    
 .formulario{
     background-color: nth($colores,2);
     width: 100%;
@@ -410,6 +410,7 @@
     font-style: italic;
     text-align: center;
     background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), nth($colores,4);
+    
     h2{
         font-size: nth($font-size,8);
         color: nth($colores,1);
@@ -424,15 +425,13 @@
     font-family: 'Ysabeau Infant', sans-serif;
     font-style: italic;
     text-align: center;
-    background-color: nth($colores,10);
+    
     .emp-item{
         display: grid;
         grid-template-columns: 1.5fr 0.5fr;
         gap: 5px;
         margin-top: 10px;
         margin-bottom: 0%;
-        
-        
         .bloque-titulo{
             padding: 10px;
             display: grid;
@@ -442,6 +441,11 @@
             align-items: center;
             border-color: nth($colores,1);
             border: 10px;
+            background: linear-gradient(rgba(250, 235, 215, 0.411), rgba(250, 235, 215, 0.438)), url(../img/sueno-dos.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             .titulo-p{
                 grid-column-start: 1;
                 grid-column-end: 4;
@@ -493,6 +497,7 @@
         }
         
         .bloque-imagen{
+            background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), nth($colores,7);
             img{
                 width: 700px;
                 height: 500px;
