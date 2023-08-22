@@ -22,28 +22,28 @@ header nav {
   header nav div .h1 img {
     width: 300px;
     height: 300px; }
-  header nav div ul .nav-item {
+  header nav div div ul .nav-item {
     transition: 2s; }
-    header nav div ul .nav-item .color-nav {
+    header nav div div ul .nav-item .color-nav {
       margin: 10px;
       color: #4B2E39;
       text-decoration: none;
       font-family: 'Ysabeau Infant', sans-serif;
       font-size: 20px;
       font-style: italic; }
-      header nav div ul .nav-item .color-nav:hover {
+      header nav div div ul .nav-item .color-nav:hover {
         color: #7B8745;
         transform: scale(1.2); }
-  header nav div form {
-    transition: 2s; }
-    header nav div form .bot-navegador {
-      border: 2px solid #4B2E39;
-      font-family: 'Ysabeau Infant', sans-serif;
-      font-size: 18px;
-      font-style: italic; }
-      header nav div form .bot-navegadorhover {
-        transform: scale(1.2);
-        color: #948AA8; }
+  header nav div div form .bot-navegador {
+    border: 2px solid #4B2E39;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    transition: 1s; }
+    header nav div div form .bot-navegadorhover {
+      transform: scale(1.2);
+      color: #7B8745;
+      background-color: #4B2E39; }
 
 .hero {
   background: linear-gradient(rgba(250, 235, 215, 0.411), rgba(250, 235, 215, 0.438)), url(../img/fondo.png);
@@ -56,13 +56,15 @@ header nav {
   color: #948AA8;
   text-align: center;
   flex-direction: column; }
-  .hero h2 {
-    font-family: 'Raleway', sans-serif;
+  .hero h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-style: italic;
     font-size: 60px;
     border: #A28497;
     display: inline-block;
-    padding: 30px; }
-    .hero h2 span {
+    padding: 10px;
+    font-weight: 400; }
+    .hero h1 span {
       color: #7B8745; }
   .hero p {
     font-size: 30px;
@@ -70,7 +72,7 @@ header nav {
     font-weight: 400;
     font-style: italic;
     color: #4B2E39;
-    margin: 100px; }
+    margin: 50px; }
 
 .bienvenidos {
   text-align: center;
@@ -488,10 +490,11 @@ footer {
     height: 300px; } }
 
 @media screen and (max-width: 900px) {
-  .hero h2 {
+  .hero h1 {
     font-size: 45px; }
   .hero p {
-    font-size: 25px; }
+    font-size: 25px;
+    margin: 0%; }
   .online div {
     flex-direction: column;
     justify-content: center;
@@ -534,8 +537,6 @@ footer {
     height: 40px; } }
 
 @media screen and (max-width: 730px) {
-  .hero p {
-    margin: 0%; }
   .bienvenidos {
     flex-direction: column; }
   .bienvenidos div h2 {
@@ -553,7 +554,7 @@ footer {
   header {
     flex-direction: column;
     position: static; }
-  .hero h2 {
+  .hero h1 {
     font-size: 40px; }
   .hero p {
     font-size: 25px; }

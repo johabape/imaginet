@@ -9,7 +9,6 @@ header{
                     width: 300px;
                     height: 300px;
                 }
-                }
             }
             div{
                 ul{
@@ -23,27 +22,27 @@ header{
                             font-size: nth($font-size,7);
                             font-style: italic;
                             &:hover{
-                                    color:nth($colores,5);
-                                    transform: scale(1.2);
-                                }
+                                color:nth($colores,5);
+                                transform: scale(1.2);
+                            }
                         }
-                        
                     }
                 }
                 form{
-                    transition: 2s;
                     .bot-navegador{
                         border: 2px solid nth($colores,1);
                         font-family: 'Ysabeau Infant', sans-serif;
                         font-size: nth($font-size,9);
                         font-style: italic;
+                        transition: 1s;
                         &hover{
                             transform: scale(1.2);
-                            color: nth($colores,3);
-                        }
-                        
+                            color: nth($colores,5);
+                            background-color: nth($colores,1);
                         }
                     }
                 }
             }
         }
+    }
+}
