@@ -552,7 +552,8 @@ footer {
     height: 80px; }
   .emprendimientos .emp-item .bloque-titulo div div img {
     width: 40px;
-    height: 40px; } }
+    height: 40px;
+    margin-bottom: 0%; } }
 
 @media screen and (max-width: 730px) {
   .bienvenidos {
@@ -625,7 +626,8 @@ footer {
     height: 180px; }
   .productos div div img {
     width: 100px;
-    height: 90px; }
+    height: 90px;
+    margin-bottom: 0%; }
   .emprendimientos .emp-item .bloque-imagen img {
     width: 300px;
     height: 200px; } }
