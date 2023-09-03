@@ -8,34 +8,50 @@
     background-attachment: fixed;
     color: nth($colores,3);
     text-align: center;
-    @extend %flex;
-    flex-direction: column;
-    h1{
-        font-family: 'Ysabeau Infant', sans-serif;
-        font-style: italic;
-        font-size: nth($font-size,2);
-        border: nth($colores,4);
-        display: inline-block;
-        padding: 10px;
-        font-weight: 400;
-        span{
-            color: nth($colores,5);
+    display: flex;
+        div{
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            flex-direction: column;
+            h1{
+                font-family: 'Ysabeau Infant', sans-serif;
+                font-style: italic;
+                font-size: nth($font-size,2);
+                border: nth($colores,4);
+                display: inline-block;
+                padding: 10px;
+                font-weight: 400;
+                span{
+                color: nth($colores,5);
+                }
+            }
+            p{
+                font-size: nth($font-size,6);
+                font-family: 'Ysabeau Infant', sans-serif;
+                font-weight: 400;
+                font-style: italic;
+                color: nth($colores,1);
+                margin: 50px;
+            }
         }
-    }
-    p{
-        font-size: nth($font-size,5);
-        font-family: 'Ysabeau Infant', sans-serif;
-        font-weight: 400;
-        font-style: italic;
-        color: nth($colores,1);
-        margin: 50px;
-    }
+        div{
+            display: flex;
+            img{
+                padding: 15px;
+                width: 100%;
+                height: 90%;
+            }
+        }
 }
+    
+    
 
 .bienvenidos{
     @extend %flex;
     text-align: center;
     background-color: nth($colores,6);
+    padding: 15px;
     div{
         width: 100%;
         h2{
@@ -47,6 +63,7 @@
             font-family: 'Ysabeau Infant', sans-serif;
             color: nth($colores,1);
             font-size: nth($font-size,7);
+            padding: 15px;
         }
     }
     div{
@@ -54,31 +71,35 @@
         img{
             width: 300px;
             height: 200px;
+            padding: 10px;
         }
         img{
             width: 300px;
             height: 200px;
+            padding: 10px;
         }
     }
 }
 
 .online{
+    
     h2{
         text-align: center;
         font-family: 'Ysabeau Infant', sans-serif;
         color: nth($colores,7);
-        font-size: nth($font-size,4);
+        font-size: nth($font-size,5);
         background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), nth($colores,1) ;
         margin-bottom: 0px;
     }
     div{
+        padding: 15px;
         @include flex (flex, space-evenly, center);
         background-color: nth($colores,6);
         margin-bottom: 0px;
         margin-top: 0px;
         h3{
             font-family: 'Ysabeau Infant', sans-serif;
-            font-size: nth($font-size,3);
+            font-size: nth($font-size,8);
             color: nth($colores,5);
             margin: 15px;
         }
@@ -111,6 +132,7 @@
         object-fit: cover;
         gap: 15px;
         @extend %flex;
+        padding: 20px;
         div{
             border: 1px solid nth($colores,8);
             width: 200px;
@@ -140,7 +162,7 @@
             }
             a{
                 text-decoration: none;
-                color: nth($colores,9);
+                color: nth($colores,2);
                 background-color: nth($colores,4);
                 font-size: nth($font-size,9);
                 font-style: italic;
@@ -178,6 +200,7 @@
         font-family: 'Ysabeau Infant', sans-serif;
         color: nth($colores,1);
         font-size: nth($font-size,4);
+        padding: 15px;
     }
     p{
         font-size: nth($font-size,6);
@@ -189,7 +212,7 @@
         margin-bottom: 0%;
         margin-left: 50px;
         margin-right: 50px;
-        padding: 10px;
+        padding: 15px;
     }
 }
 
@@ -204,12 +227,13 @@
             h3{
                 font-size: nth($font-size,6);
                 font-family: 'Ysabeau Infant', sans-serif;
+                padding: 15px;
             }
             a{
                 img{
                     width: 250px;
                     height: 250px;
-                    padding: 5px;
+                    padding: 15px;
                 }
             }
         }
@@ -233,6 +257,7 @@
         font-size: nth($font-size,7);
         text-align: center;
         margin: 0%;
+        padding: 20px;
     }
     .en-casa{
         h3{
@@ -293,6 +318,7 @@
             grid-auto-rows: 200px;
             align-items: center;
             justify-items: center;
+            padding: 15px;
             iframe{
                 max-width: 90%;
                 max-height: 90%;
@@ -321,10 +347,12 @@
             grid-auto-rows: 200px;
             justify-items: center;
             align-items: center;
+            padding: 15px;
             img{
                 width: 250px;
                 height: 200px;
                 position: relative;
+                padding: 15px;
             }
         }
     }
@@ -421,7 +449,7 @@
     p{
         font-size: nth($font-size,6);
         color: nth($colores,1);
-        padding: 5px;
+        padding: 15px;
     }
 }
 .emprendimientos{
@@ -436,7 +464,7 @@
         margin-top: 10px;
         margin-bottom: 0%;
         .bloque-titulo{
-            padding: 10px;
+            padding: 15px;
             display: grid;
             grid-template-rows: 1.7fr 0.3fr;
             grid-template-columns: 1fr 1fr 1fr;
