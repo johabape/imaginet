@@ -11,9 +11,10 @@
 }
 
 @media screen and (max-width:991px){
-    header nav div .h1 img{
-        width: 200px;
-        height: 200px;
+    header nav div div ul li .color-texto-uno{
+        transition: none;
+        font-size: nth($font-size,10);
+        margin-left: 40px;
     }
     .hero div h1{
         font-size: nth($font-size,4);
@@ -40,6 +41,9 @@
     .hero p{
         font-size: nth($font-size,6);
         margin: 0%;
+    }
+    .hero div img{
+        height: 60%;
     }
     .online div{
         flex-direction: column;
@@ -207,8 +211,7 @@
         font-size: nth($font-size,10);
     }
     .bienvenidos div img{
-        width: 100px;
-        height: 100px;
+        
         justify-content: center;
         align-items: center;
     }

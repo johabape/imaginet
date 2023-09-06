@@ -1,45 +1,49 @@
 header{
     nav{
-        width: 100%;
-        height: 100%;
         background-color: nth($colores,6);
-        
+        text-decoration: none;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-size: nth($font-size,7);
+        font-weight: 500;
         div{
-            .h1{
+            a{
                 img{
-                    width: 300px;
-                    height: 300px;
+                    width: 130px;
+                    height: 130px;
                 }
             }
             div{
                 ul{
-                    .nav-item{
-                        transition: 2s;
-                        .color-nav{
-                            margin: 10px;
+                    li{
+                        .color-texto-uno{
                             color: nth($colores,1);
-                            text-decoration: none;
-                            font-family: 'Ysabeau Infant', sans-serif;
-                            font-size: nth($font-size,7);
-                            font-style: italic;
+                            transition: 1s;
                             &:hover{
-                                color:nth($colores,5);
-                                transform: scale(1.2);
+                            transform: scale(1.1);
                             }
                         }
+                        .fondo{
+                            background-color: nth($colores,6);
+                            transition: 1s;
+                            .color-texto{
+                                &:hover{
+                                    background-color: nth($colores,2);
+                                    font-weight: 700;
+                                }
+                                
+                            }
+                        }
+                        
                     }
                 }
                 form{
-                    .bot-navegador{
-                        border: 2px solid nth($colores,1);
-                        font-family: 'Ysabeau Infant', sans-serif;
-                        font-size: nth($font-size,9);
-                        font-style: italic;
+                    .fdo-bot{
+                        background-color: nth($colores,2);
                         transition: 1s;
-                        &hover{
-                            transform: scale(1.2);
-                            color: nth($colores,5);
+                        &:hover{
                             background-color: nth($colores,1);
+                            font-weight: 700;
+                            color: nth($colores,2);
                         }
                     }
                 }
