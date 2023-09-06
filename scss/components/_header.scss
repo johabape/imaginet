@@ -24,7 +24,7 @@ header{
                         }
                         .fondo{
                             background-color: nth($colores,6);
-                            transition: 1s;
+                            transition: 1.1s;
                             .color-texto{
                                 &:hover{
                                     background-color: nth($colores,2);
@@ -39,7 +39,7 @@ header{
                 form{
                     .fdo-bot{
                         background-color: nth($colores,2);
-                        transition: 1s;
+                        transition: 1.1s;
                         &:hover{
                             background-color: nth($colores,1);
                             font-weight: 700;

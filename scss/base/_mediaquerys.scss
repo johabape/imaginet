@@ -60,19 +60,19 @@
         justify-items: center;
         align-items: center;
     }
-    .actividades h2{
+    .actividades h1{
         font-size: nth($font-size,5);
     }
-    .actividades .en-casa h3{
+    .actividades .en-casa h2{
         font-size: nth($font-size,6)
     }
-    .actividades .grid-dos h3{
+    .actividades .grid-dos h2{
         font-size: nth($font-size,6);
     }
-    .actividades .montevideo h3{
+    .actividades .montevideo h2{
         font-size: nth($font-size,6);
     }
-    .actividades .pubs h3{
+    .actividades .pubs h2{
         font-size: nth($font-size,6);
     }
     .formulario{
@@ -145,10 +145,6 @@
 }
 
 @media screen and (max-width:720px){
-    header{
-        flex-direction: column;
-        position: static;
-    }
     .hero h1{
         font-size: nth($font-size,8);
     }
@@ -160,7 +156,7 @@
         justify-content: center;
         align-items: center;
     }
-    .materias h2{
+    .materias h1{
         font-size: nth($font-size,5);
     }
     .materias p{
@@ -169,6 +165,12 @@
     .actividades .montevideo .montevideo-grids a img{
         width: 200px;
         height: 100px;
+    }
+    .presentacion h1{
+        font-size: nth($font-size,5);
+    }
+    .presentacion p{
+        font-size: nth($font-size,7);
     }
 }
 
@@ -193,17 +195,6 @@
 }
 
 @media screen and (max-width:500px){
-    header{
-        flex-direction: row;
-    }
-    header nav div div ul{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    header nav div div ul li{
-        margin: 5px;
-    }
     .hero div h1{
         font-size: nth($font-size,5);
     }
@@ -231,9 +222,6 @@
 }
 
 @media screen and (max-width:380px){
-    header nav div .h1{
-        font-size: ($font-size,5);
-    }
     .hero div img{
         width: 300px;
         height: 250px;
