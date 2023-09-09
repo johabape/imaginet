@@ -404,7 +404,8 @@ header nav {
 .presentacion {
   font-family: 'Ysabeau Infant', sans-serif;
   font-style: italic;
-  text-align: center; }
+  text-align: center;
+  background: linear-gradient(rgba(68, 67, 66, 0.301), rgba(250, 235, 215, 0.438)), #F1E9DA; }
   .presentacion h1 {
     font-size: 40px;
     color: #4B2E39;
